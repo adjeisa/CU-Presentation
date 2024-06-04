@@ -1,0 +1,47 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    }
+
+    h1, h2 {
+        color: #333;
+    }
+
+    #product-list {
+        margin-bottom: 20px;
+    }
+
+    .product {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    #cart {
+        border: 1px solid #ccc;
+        padding: 10px;
+    }
+
+    #cart-items {
+        margin-bottom: 10px;
+    }
+
+    #total {
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+.img {
+        width: 100%; /* Set the width to 100% of the container */
+        height: auto; /* Maintain aspect ratio */
+        display: block; /* Make sure the image is treated as a block element */
+    }
+
+    .product {
+        display: inline-block; /* Display products side by side */
+        width: calc(33.33% - 20px); /* Set width to 33.33% of container width with some spacing */
+        margin: 10px; /* Add spacing between products */
+    }
+
+    
